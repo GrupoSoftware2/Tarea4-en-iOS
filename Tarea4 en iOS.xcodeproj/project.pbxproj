@@ -12,6 +12,10 @@
 		FBA7BB341E78B082000CE299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA7BB321E78B082000CE299 /* Main.storyboard */; };
 		FBA7BB361E78B082000CE299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA7BB351E78B082000CE299 /* Assets.xcassets */; };
 		FBA7BB391E78B082000CE299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA7BB371E78B082000CE299 /* LaunchScreen.storyboard */; };
+		FBA7BB411E78B16F000CE299 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7BB401E78B16F000CE299 /* ListaTableViewController.swift */; };
+		FBA7BB431E78B193000CE299 /* FavoritosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7BB421E78B193000CE299 /* FavoritosCollectionViewController.swift */; };
+		FBA7BB451E78B1AE000CE299 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7BB441E78B1AE000CE299 /* Item.swift */; };
+		FBA7BB471E78B98F000CE299 /* CellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7BB461E78B98F000CE299 /* CellCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FBA7BB351E78B082000CE299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA7BB381E78B082000CE299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA7BB3A1E78B082000CE299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA7BB401E78B16F000CE299 /* ListaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		FBA7BB421E78B193000CE299 /* FavoritosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritosCollectionViewController.swift; sourceTree = "<group>"; };
+		FBA7BB441E78B1AE000CE299 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FBA7BB461E78B98F000CE299 /* CellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				FBA7BB351E78B082000CE299 /* Assets.xcassets */,
 				FBA7BB371E78B082000CE299 /* LaunchScreen.storyboard */,
 				FBA7BB3A1E78B082000CE299 /* Info.plist */,
+				FBA7BB401E78B16F000CE299 /* ListaTableViewController.swift */,
+				FBA7BB421E78B193000CE299 /* FavoritosCollectionViewController.swift */,
+				FBA7BB441E78B1AE000CE299 /* Item.swift */,
+				FBA7BB461E78B98F000CE299 /* CellCollectionViewCell.swift */,
 			);
 			path = "Tarea4 en iOS";
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA7BB471E78B98F000CE299 /* CellCollectionViewCell.swift in Sources */,
+				FBA7BB451E78B1AE000CE299 /* Item.swift in Sources */,
 				FBA7BB311E78B081000CE299 /* ViewController.swift in Sources */,
 				FBA7BB2F1E78B081000CE299 /* AppDelegate.swift in Sources */,
+				FBA7BB431E78B193000CE299 /* FavoritosCollectionViewController.swift in Sources */,
+				FBA7BB411E78B16F000CE299 /* ListaTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
