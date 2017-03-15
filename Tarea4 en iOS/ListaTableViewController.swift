@@ -74,9 +74,11 @@ class ListaTableViewController: UITableViewController {
         let indexPath = tableView.indexPath(for: cell)
         let item = items[(indexPath?.row)!]
         
+        var alerta:UIAlertController
+        
         if !seleccionado.contains(item) {
             
-            let alerta = UIAlertController(title: "Mensaje", message: "!Favorito Agregado!", preferredStyle: UIAlertControllerStyle.alert)
+            alerta = UIAlertController(title: "Mensaje", message: "!Favorito Agregado!", preferredStyle: UIAlertControllerStyle.alert)
             let accionOk = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil)
             
             alerta.addAction(accionOk)
@@ -85,7 +87,7 @@ class ListaTableViewController: UITableViewController {
             seleccionado.append(item)
             
         }else{
-            let alerta = UIAlertController(title: "Mensaje", message: "!Ya se agrego este Item!", preferredStyle: UIAlertControllerStyle.alert)
+            alerta = UIAlertController(title: "Mensaje", message: "!Ya se agrego este Item!", preferredStyle: UIAlertControllerStyle.alert)
             let accionOk = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil)
             
             alerta.addAction(accionOk)
